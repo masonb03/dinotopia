@@ -3,22 +3,20 @@ import { dinosaurs } from '../data/dinosaurs';
 import '../styles/DinoCard.css';
 
 
-export default function Library() {
+export default function Catalog() {
 
     return(
-        <div>
-            <h1 className="font-serif">Library Page</h1>
-            <p className="font-serif">Welcome to the Library of Dinotopia!</p>
+        <div className="catalog-page">
+            <h1 className="font-serif">Catalog Page</h1>
+            <p className="font-serif">Welcome to the Catalog of Dinotopia!</p>
             <div className="dino-grid">
                 {dinosaurs.map((dino => (
-                    <Link 
+                    <Link className="dino-card-cover"
                     to={`/dino/${dino.id}`} 
                     key={dino.id}>
-                        <img src={dino.image}
-                        alt={dino.name}
-                        width="500"/>
-                        
-                        <div>
+                        <img className="image-container" src={dino.image}
+                        alt={dino.name}/>
+                        <div className="dino-title">
                             <h2>{dino.name}</h2>
                             <p>Era: {dino.era}</p>
                         </div>
