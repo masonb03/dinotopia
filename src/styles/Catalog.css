@@ -33,7 +33,7 @@
   gap: 30px;
   justify-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 20px;
 }
 
@@ -52,7 +52,7 @@
     .image-container {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 400px;
+    width: 700px;
     height: 200px;
     overflow: hidden;
 }
