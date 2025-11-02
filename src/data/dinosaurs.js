@@ -3,7 +3,7 @@ import triceratopsImage from '../assets/textures/Triceratops.jpg';
 import tyrannosaurusRexImage from '../assets/textures/Trex.jpg';
 import velociraptorImage from '../assets/textures/velociraptor.jpg';
 import brachiosaurusImage from '../assets/textures/brachiosaurus.jpg';
-/*import stegosaurusImage from '../assets/textures/stegosaurus.jpg';
+import stegosaurusImage from '../assets/textures/stegosaurus.jpg';
 import ankylosaurusImage from '../assets/textures/ankylosaurus.jpg';
 import allosaurusImage from '../assets/textures/allosaurus.jpg';
 import parasaurolophusImage from '../assets/textures/parasaurolophus.jpg';
@@ -12,7 +12,7 @@ import diplodocusImage from '../assets/textures/diplodocus.jpg';
 import carnotaurusImage from '../assets/textures/carnotaurus.jpg';
 import giganotosaurusImage from '../assets/textures/giganotosaurus.jpg';
 import pachycephalosaurusImage from '../assets/textures/pachycephalosaurus.jpg';
-import mosasaurusImage from '../assets/textures/mosasaurus.jpg';*/
+import mosasaurusImage from '../assets/textures/mosasaurus.jpg';
 
 export const dinosaurs = [
   {
@@ -72,7 +72,7 @@ export const dinosaurs = [
   description:
     "Brachiosaurus was a massive, long-necked dinosaur that fed on treetops. Unlike most sauropods, its front legs were longer than its hind legs, giving it a distinctive upward-sloping body posture.",
 },
-/*{
+{
   id: 6,
   name: "Stegosaurus",
   era: "Late Jurassic",
@@ -192,5 +192,4 @@ export const dinosaurs = [
   description:
     "A massive marine reptile with a powerful tail and paddle-like limbs, Mosasaurus dominated prehistoric oceans. It was a top predator, feeding on fish, sharks, and even other marine reptiles.",
 }
-*/
 ]

@@ -28,7 +28,6 @@ export default function Catalog() {
   setFilteredDinosaurs(filtered);
 }, [searchTerm, dietFilter]);
 
-    const dinoToDisplay = searchTerm.trim() === '' ? dinosaurs : filteredDinosaurs;
     return(
         <div className="catalog-page">
             <h1 className="font-serif">Catalog Page</h1>
@@ -46,8 +45,6 @@ export default function Catalog() {
                         <button onClick={() => setDietFilter('Carnivore')}>Carnivores</button>
                         <button onClick={() => setDietFilter('Herbivore')}>Herbivores</button>
                         <button onClick={() => setDietFilter('Piscivore')}>Piscivores</button>
-                        <button onClick={() => setDietFilter('Air')}>Air</button>
-                        <button onClick={() => setDietFilter('Water')}>Water</button>
                     </aside>
                     <div className="dino-grid">
                         {filteredDinosaurs.map((dino => (
