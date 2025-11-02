@@ -1,14 +1,41 @@
 .home-welcome {
     text-align: left;
     margin-top: 100px;
-    margin-left: 100px;
     font-family: serif;
     font-size: 22px;
-    padding: 20px;
 }
 
 .home-welcome p {
     margin-top: 20px;
     line-height: 1.6;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+.home-welcome .jounrey-btn {
+    margin-top: 30px;
+    background-color: #5b8b8b;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-welcome .jounrey-btn:hover {
+    background-color: #417373;
+}
+
+.home-welcome section {
+    background-color: grey;
+    margin-top: 200px;
+    line-height: 1.6;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    padding-left: 40px; 
+    padding-right: 40px;
 }
