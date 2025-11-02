@@ -1,7 +1,7 @@
 import { dinosaurs } from '../data/dinosaurs';
 import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import '../styles/DinoCard.css';
+import '../styles/Catalog.css';
 
 export default function SingleDino(){
     const navigate = useNavigate();

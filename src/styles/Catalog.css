@@ -1,3 +1,32 @@
+.search {
+    background-color: rgba(241, 241, 241, 0.6);
+    color: black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: serif;
+}
+
+.catalog-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(241, 241, 241, 0.6);
+    gap: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 20px;
+    height: fit-content;
+}
+
 .dino-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -5,7 +34,6 @@
   justify-items: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
   padding: 20px;
 }
 
@@ -38,14 +66,4 @@
 .dino-card-cover:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-}
-
-.search {
-    background-color: rgb(44, 44, 44);
-    width: 300px;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
 }
