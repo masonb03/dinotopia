@@ -1,8 +1,45 @@
-.DinoCard {
-    border: 2px solid #ffae00;
+.dinoCard {
     border-radius: 10px;
     padding: 20px;
     max-width: 600px;
     margin: 20px auto;
     background-color: #353535;
+}
+
+.dino-facts h2 {
+    text-align: center;
+    font-style: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a1dcff;
+    margin-bottom: 10px;
+}
+
+.dino-facts p {
+    display: flex;
+    border: #e0e0e0 1px solid;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: 8px;
+}
+
+.dino-facts img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dino-facts p svg {
+    margin-right: 8px;
+    margin-top: 5px;
+    color: #48bcff;
+}
+
+.dino-facts p:last-child {
+    margin-bottom: 0;
 }
