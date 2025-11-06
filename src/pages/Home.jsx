@@ -1,5 +1,6 @@
 import {useState, useRef} from 'react'
 import '../styles/Home.css';
+import EarthModel from '../components/EarthScene';
 
 export default function Home() {
 
@@ -16,7 +17,7 @@ export default function Home() {
       <button className="jounrey-btn" onClick={scrollToTarget}> Begin Jounrey </button>
       <section>Millions of years ago, the earth was a very different place. The continents that we know now used to all be connected into one massive continent named Pangea. This once massive supercontinent began breaking apart around 200 million years ago due to the techtonic plates within the Earth moving around. It kept moving until all the of Pangea was broken into smaller continents which then formed into the ones we know today.</section>
       <div ref={targetRef}>
-        <section>This is where the 3d earth model will go.</section>
+        <section><EarthModel/></section>
       </div>
     </div>
   )
