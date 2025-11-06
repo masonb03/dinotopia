@@ -1,0 +1,11 @@
+Model Information:
+* title:	Earth paleogeographic timelapse
+* source:	https://sketchfab.com/3d-models/earth-paleogeographic-timelapse-04eaa73d89c241b3bc8354c864e1c297
+* author:	C. Yamahata (https://sketchfab.com/cyamahat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Earth paleogeographic timelapse" (https://sketchfab.com/3d-models/earth-paleogeographic-timelapse-04eaa73d89c241b3bc8354c864e1c297) by C. Yamahata (https://sketchfab.com/cyamahat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
