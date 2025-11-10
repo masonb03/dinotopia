@@ -1,6 +1,6 @@
 import {useState, useRef} from 'react'
 import '../styles/Home.css';
-import EarthModel from '../components/EarthScene';
+import EarthModel from '../components/EarthModel';
 
 export default function Home() {
 
