@@ -14,7 +14,7 @@
 
 
 
-.home-welcome .jounrey-btn {
+.home-welcome .journey-btn {
     margin-top: 30px;
     background-color: #5b8b8b;
     color: black;
@@ -26,7 +26,7 @@
     transition: background-color 0.3s ease;
 }
 
-.home-welcome .jounrey-btn:hover {
+.home-welcome .journey-btn:hover {
     background-color: #417373;
 }
 

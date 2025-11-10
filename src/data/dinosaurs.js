@@ -24,7 +24,7 @@ export const dinosaurs = [
     "length": "40 feet",
     "weight": "5.4-8.0 metric tons",
     "image": tyrannosaurusRexImage,
-    "description": "Being one of the largest terrestrial theroapod dinosaurs, T-rex was an apex predator of its time. Having the nickname 'tyrant lizard king', it carried the most powerful bite force of any land animal that has ever lived. T-rex is one of the most well known and studied dinosaurs."
+    "description": "Being one of the largest terrestrial theropod dinosaurs, T.rex was an apex predator of its time. Having the nickname 'tyrant lizard king', it carried the most powerful bite force of any land animal that has ever lived. T.rex is one of the most well known and studied dinosaurs."
   },
   {
     "id": 2,
@@ -106,7 +106,7 @@ export const dinosaurs = [
   weight: "2.3 metric tons",
   image: allosaurusImage,
   description:
-    "Allosaurus was a fierce predator that hunted large herbivores like Stegosaurus. With sharp serrated teeth and long arms tipped with claws, it was among the dominant carnivores before T. rex appeared.",
+    "Allosaurus was a fierce predator that hunted large herbivores like Stegosaurus. With sharp serrated teeth and long arms tipped with claws, it was among the dominant carnivores before T.rex appeared.",
 },
 {
   id: 9,
