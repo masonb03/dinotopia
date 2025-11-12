@@ -24,7 +24,7 @@ const Earth = ({ textureIndex }) => {
   });
 
   return (
-    <mesh ref={meshRef}>
+    <mesh ref={meshRef} rotation={[Math.PI / 2, 0.3, 0]}>
       <sphereGeometry args={[2, 64, 64]} />
       <meshStandardMaterial map={textures[textureIndex]} />
     </mesh>
@@ -51,6 +51,7 @@ export default function EarthScene() {
         <ambientLight intensity={0.8} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
         <Earth textureIndex={textureIndex} />
+        <axesHelper args={[5]} />
         <OrbitControls enableZoom={false} />
       </Canvas>
 
