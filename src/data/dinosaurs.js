@@ -7,12 +7,12 @@ import stegosaurusImage from '../assets/textures/stegosaurus.jpg';
 import ankylosaurusImage from '../assets/textures/ankylosaurus.jpg';
 import allosaurusImage from '../assets/textures/allosaurus.jpg';
 import parasaurolophusImage from '../assets/textures/parasaurolophus.jpg';
-import pteranodonImage from '../assets/textures/pteranodon.jpg';
+import baryonyxImage from '../assets/textures/baryonyx.jpg';
 import diplodocusImage from '../assets/textures/diplodocus.jpg';
 import carnotaurusImage from '../assets/textures/carnotaurus.jpg';
 import giganotosaurusImage from '../assets/textures/giganotosaurus.jpg';
 import pachycephalosaurusImage from '../assets/textures/pachycephalosaurus.jpg';
-import mosasaurusImage from '../assets/textures/mosasaurus.jpg';
+import suchomimusImage from '../assets/textures/suchomimus.jpg';
 
 export const dinosaurs = [
   {
@@ -122,15 +122,15 @@ export const dinosaurs = [
 },
 {
   id: 10,
-  name: "Pteranodon",
-  era: "Late Cretaceous",
+  name: "Baryonyx",
+  era: "Early Cretaceous",
   diet: "Piscivore",
-  height: "6 feet (standing)",
-  length: "Wingspan 23 feet",
-  weight: "50 pounds",
-  image: pteranodonImage,
+  height: "9 feet at hips",
+  length: "33 feet",
+  weight: "1.2 metric tons",
+  image: baryonyxImage,
   description:
-    "A large flying reptile (pterosaur) with a long beak and crest, Pteranodon soared over ancient seas hunting for fish. Though not a dinosaur, it’s often associated with them due to its prehistoric dominance of the skies.",
+    "Baryonyx was a fish-eating dinosaur with a long, crocodile-like snout filled with conical teeth. It had large claws on its hands, which it may have used to catch fish or defend itself.",
 },
 {
   id: 11,
@@ -182,14 +182,14 @@ export const dinosaurs = [
 },
 {
   id: 15,
-  name: "Mosasaurus",
-  era: "Late Cretaceous",
-  diet: "Carnivore",
-  height: "N/A (aquatic)",
-  length: "56 feet",
-  weight: "15 metric tons",
-  image: mosasaurusImage,
+  name: "Suchomimus",
+  era: "Early Cretaceous",
+  diet: "Piscivore",
+  height: "16 feet at hips",
+  length: "36 feet",
+  weight: "3.5 metric tons",
+  image: suchomimusImage,
   description:
-    "A massive marine reptile with a powerful tail and paddle-like limbs, Mosasaurus dominated prehistoric oceans. It was a top predator, feeding on fish, sharks, and even other marine reptiles.",
+    "Suchomimus was a spinosaurid dinosaur known for its elongated snout and conical teeth, adapted for catching fish. It had a sail-like structure on its back and likely lived near water sources.",
 }
 ]
