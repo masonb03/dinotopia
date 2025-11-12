@@ -8,7 +8,7 @@
 .home-welcome p {
     margin-top: 20px;
     line-height: 1.6;
-    width: 100%;
+    width: 850px;
     max-width: 1200px;
     padding-left: 40px;
 }
@@ -16,7 +16,8 @@
 
 
 .home-welcome .journey-btn {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
     background-color: #5b8b8b;
     color: black;
     border: none;
@@ -32,7 +33,6 @@
 }
 
 .home-welcome section {
-    margin-top: 200px;
     line-height: 1.6;
     padding-top: 120px;
 }

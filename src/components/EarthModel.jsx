@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useTexture } from "@react-three/drei";
+import '../styles/Model.css'
+
 
 const textureFiles = [
   { age: 200, file: "/models/earth_paleogeographic_timelapse/textures/200Ma_baseColor.jpeg" },
@@ -51,26 +53,31 @@ export default function EarthScene() {
         <ambientLight intensity={0.8} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
         <Earth textureIndex={textureIndex} />
-        <axesHelper args={[5]} />
         <OrbitControls enableZoom={false} />
       </Canvas>
 
-      {/* Slider container */}
-      <div className="relative w-96">
+
+      <div className="relative w-[80rem] mt-6 mb-10">
         <input
           type="range"
           min="0"
           max={textureFiles.length - 1}
           value={textureIndex}
           onChange={(e) => setTextureIndex(Number(e.target.value))}
-          className="w-full accent-blue-500"
+          className="w-full h-5 appearance-none bg-[#292c35] rounded-lg overflow-hidden cursor-pointer"
+          style={{
+            accentColor: '#e09145',
+            boxShadow: '0 0 5px #e09145',
+          }}
         />
-        <div className="flex justify-between text-white text-sm mt-1">
-          {textureFiles.map((t, index) => (
+        <div className="flex justify-between text-[#fcd9b8] text-xs font-semibold mt-3">
+          {textureFiles.map((t) => (
             <span
               key={t.age}
-              className="text-xs text-gray-200"
-              style={{ transform: "translateX(-50%)", width: "20px" }}
+              className="text-sm"
+              style={{
+                textShadow: '0 0 6px #e09145',
+              }}
             >
               {t.age} Ma
             </span>
