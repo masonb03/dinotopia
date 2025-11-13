@@ -66,17 +66,17 @@ export default function EarthScene() {
           onChange={(e) => setTextureIndex(Number(e.target.value))}
           className="w-full h-5 appearance-none bg-[#292c35] rounded-lg overflow-hidden cursor-pointer"
           style={{
-            accentColor: '#e09145',
-            boxShadow: '0 0 5px #e09145',
+            accentColor: '#273f3f',
+            boxShadow: '0 0 5px #273f3f',
           }}
         />
-        <div className="flex justify-between text-[#fcd9b8] text-xs font-semibold mt-3">
+        <div className="flex justify-between text-[#5b8b8b] text-xs font-semibold mt-3">
           {textureFiles.map((t) => (
             <span
               key={t.age}
               className="text-sm"
               style={{
-                textShadow: '0 0 6px #e09145',
+                textShadow: '0 0 6px #273f3f',
               }}
             >
               {t.age} Ma
