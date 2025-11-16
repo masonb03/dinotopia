@@ -43,3 +43,15 @@
 .dino-facts p:last-child {
     margin-bottom: 0;
 }
+
+.dino-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.dino-line svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}

@@ -21,12 +21,12 @@ export default function SingleDino(){
                     <h2>{dino.name}</h2>
                     <img src={dino.image}
                     width="500"/>
-                    <p>Era: {dino.era}</p>
-                    <p><FaDna />Height: {dino.height}</p>
-                    <p><FaDna />Length: {dino.length}</p>
-                    <p><FaDna />Weight: {dino.weight}</p>
-                    <p><FaDna />Diet: {dino.diet}</p>
-                    <p><FaDna />Desc: {dino.description}</p>
+                    <p className="dino-line"><FaDna/>Era: {dino.era}</p>
+                    <p className="dino-line"><FaDna />Height: {dino.height}</p>
+                    <p className="dino-line" ><FaDna />Length: {dino.length}</p>
+                    <p className="dino-line"><FaDna />Weight: {dino.weight}</p>
+                    <p className="dino-line"><FaDna />Diet: {dino.diet}</p>
+                    <p className="dino-line"><FaDna />Description: {dino.description}</p>
                 </div>
                 <button onClick={() => navigate(-1)} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
                     Back
