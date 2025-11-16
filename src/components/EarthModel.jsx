@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useTexture } from "@react-three/drei";
+import {Stars} from "@react-three/drei";
 import '../styles/Model.css'
 
 
@@ -50,7 +51,15 @@ export default function EarthScene() {
   return (
     <div className="flex flex-col items-center bg-black h-screen justify-center space-y-6">
       <Canvas camera={{ position: [0, 0, 6] }}>
-        <ambientLight intensity={0.8} />
+        <Stars 
+          radius={200}
+          depth={90}
+          count={700}
+          factor={7}
+          saturation={0}
+          fade speed={0.5}
+        />
+      <ambientLight intensity={0.8} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
         <Earth textureIndex={textureIndex} />
         <OrbitControls enableZoom={false} />
